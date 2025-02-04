@@ -2,7 +2,7 @@ const form = document.getElementById("pinForm");
 const pinInput = document.getElementById("pin");
 const messageContainer = document.getElementById("messageContainer");
 
-const validPins = ["1234", "5678", "9012"];
+const validPins = ["1234", "5678", "9012", '5912', '2245', '5564', '4191'];
 
 
 function validatePin(pin) {
